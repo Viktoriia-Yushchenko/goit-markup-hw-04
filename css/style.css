@@ -274,9 +274,12 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 flex-basis: calc((100% - 72px) / 4);
 }
 
-.team-list-inform:hover .team-soc-link,
-.team-list-inform:focus .team-soc-link{
+.team-list-inform:hover .team-soc-link{
     background-color: #404bbf;
+}
+
+.team-soc-link:focus{
+background-color: #404bbf;
 }
 
 .team-name{
